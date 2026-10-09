@@ -58,7 +58,7 @@ story = { path = "crates/story" }
 
 # GPUI CE is published to crates.io as `gpui-ce` with its platform, web and
 # macros split into sibling crates.
-gpui = { package = "gpui-ce", version = "0.2.2" }
+gpui = { package = "gpui-ce", version = "0.2.2", default-features = false }
 gpui_platform = { package = "gpui_ce_platform", version = "0.1.0", features = [
   "font-kit",
   "x11",
